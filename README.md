@@ -23,8 +23,8 @@ npm run dev
  
  在高级表单组件中调用了calendar组件和EditTable组件，实现日期选择和可编辑表格功能
  
- ![image](https://github.com/jianzi930/reactPractice/raw/master/GIF1.gif) 
+ ![image](https://github.com/jianzi930/reactPractice/blob/master/GIF1.gif) 
  
   在查询表格组件中调用了AddModel组件、ConfigModel组件和SearchTable等组件，实现新增、删除、查找、配置等功能
  
- ![image](https://github.com/jianzi930/reactPractice/raw/master/GIF2.gif) 
+ ![image](https://github.com/jianzi930/reactPractice/blob/master/GIF2.gif) 
