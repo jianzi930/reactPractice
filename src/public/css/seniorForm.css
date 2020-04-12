@@ -1,0 +1,181 @@
+.content.senior {
+    padding: 0;
+    background: #eff3f6;
+}
+.content.senior>div{
+    background: #fff;
+}
+.content .title {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 0;
+    text-align: left;
+}
+.details {
+    padding: 24px;
+}
+.details>div>div {
+    position: relative;
+    display: inline-block;
+    padding: 0 8px;
+    vertical-align: top;
+    margin-bottom: 24px;
+}
+.col-1 {
+    width: 26%;
+}
+.col-2 {
+    width: 38%;
+}
+.col-3 {
+    width: 36%;
+}
+
+.col-input {
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+.select-input::before {
+    position: absolute;
+    right: 15px;
+    bottom: 17px;
+    width: 7px;
+    height: 1px;
+    background: #d9d9d9;
+    content: "";
+    -webkit-transform: rotate(45deg) translateX(2px);
+    transform: rotate(45deg) translateX(2px);
+}
+.select-input::after {
+    position: absolute;
+    right: 8px;
+    bottom: 17px;
+    width: 7px;
+    height: 1px;
+    background: #d9d9d9;
+    content: "";
+    -webkit-transform: rotate(-45deg) translateX(-2px);
+    transform: rotate(-45deg) translateX(-2px);
+}
+.select-input ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #fff;
+    box-shadow: 1px 2px 6px #d9d9d9;
+}
+.select-input li {
+    line-height: 30px;
+}
+.select-input li:hover {
+    background: #CCFDFF;
+}
+.select-input li.active {
+    background: #CCE4FF;
+}
+.select-input ul.showBlock {
+    display: block;
+}
+.col-input span {
+    width: 25%;
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #fafafa;
+}
+.col-input span:nth-child(1){
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+}
+.col-input span:nth-child(3){
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+}
+div.store .col-2 input {
+    width: 50%;
+    border-radius: 0;
+}
+div.col-2 .calendar>p {
+    left: calc(50% - 70px);
+    top: 7px;
+}
+table {
+    width: 100%;
+}
+.members th {
+    padding: 20px 0;
+    width: 22%;
+    font-size: 14px;
+    background: #fafafa;
+    border-bottom: 1px solid #d9d9d9;
+}
+.members th:nth-child(3) {
+    width: 34%;
+}
+.members td {
+    padding: 15px 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+    color: rgba(0,0,0,.65);
+}
+.members td a {
+    display: inline-block;
+    width: 40%;
+    color: #1890ff;
+    cursor: default;
+}
+.edit-table input {
+    width: 100%;
+    left: 0;
+    padding: 4px 11px;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px;
+}
+.addMember {
+    margin: 24px 0;
+    width: 100%;
+} 
+.addMember p {
+    padding: 10px;
+    border: 1px dotted #d9d9d9;
+    border-radius: 4px;
+    cursor: default;
+}
+.addMember p:hover, .addMember p:active {
+    border: 1px solid #1890ff;
+}
+.page-main .button {
+    padding: 24px;
+    text-align: right;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 256px);
+    z-index: 3;
+}
+.collapse + .right .button {
+    width: calc(100% - 80px);
+}
+
+@media screen and (max-width: 992px) {
+    .col-1, .col-2 {
+        width: 50%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 820px) {
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+    }
+}

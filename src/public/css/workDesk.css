@@ -1,0 +1,221 @@
+
+.header-left {
+    display: inline-block;
+    width: 50%;
+}
+.header-left img{
+    float: left;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+}
+.header-left div {
+    margin-left: 85px;
+}
+.header-left p:nth-child(1){
+    margin-bottom: 12px;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    font-size: 20px;  
+}
+.header-left p:nth-child(2){
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+}
+.header-right {
+    float: right;
+    width: 40%;
+    padding-left: 10%;
+}
+.header-right div{
+    display: inline-block;
+    padding: 0 10px;
+}
+.header-right p:nth-child(1) {
+    margin-bottom: 4px;
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+}
+.header-right p:nth-child(2) {
+    margin: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 30px;
+}
+.header-right p:nth-child(2) span {
+    color: rgba(0,0,0,.45);
+    font-size: 20px;
+}
+
+.content-left {
+    padding: 0 24px;
+    display: inline-block;
+    width: 65%;
+}
+.content-left .page-card {
+    background: #eff3f6;
+    margin: 24px 0;
+    font-size: 14px;
+}
+.page-project .title {
+    margin-bottom: 0;
+}
+.page-project .title span:nth-child(2) {
+    position: absolute;
+    right: 24px;
+    color: #1890ff;;
+    cursor: pointer;
+    font-size: 14px;
+}
+.project {
+    display: inline-block;
+    width: 33.33%;
+    height: auto;
+    padding: 12px 24px;
+    color: rgba(0,0,0,.45); 
+    background: #fff;
+    font-size: 14px;
+    font-family: 'Helvetica', 'Microsoft YaHei';
+    box-shadow: 1px 0 0 0 #e8e8e8, 0 1px 0 0 #e8e8e8, 1px 1px 0 0 #e8e8e8, inset 1px 0 0 0 #e8e8e8, inset 0 1px 0 0 #e8e8e8;
+    transition: all .3s;
+}
+@media screen and (max-width: 848px) {
+    .project {
+        width: 50%;
+    }
+    .header-opration .user span {
+        display: none;
+    }
+}
+@media screen and (max-width: 670px) {
+    .project {
+        width: 100%;
+    }
+}
+.project:hover {
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+}
+.project img{
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+}
+.project div>span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgba(0,0,0,.85);
+}
+.project p:nth-of-type(1){
+    margin-top: 8px;
+    font-size: 14px;
+    height: 50px;
+}
+.project p:nth-of-type(2) {
+    font-size: 12px;
+    position: relative;
+    margin-top: 8px;
+}
+.project p:nth-of-type(2) span:nth-of-type(2){
+    position: absolute;
+    right: 0;
+}
+
+.project a:hover {
+	color: #1890ff;
+	cursor: pointer;
+}
+.page-update .title {
+    background: #fff;
+    margin-bottom: 2px;
+}
+.update {
+    background: #fff;
+    padding: 0 24px;
+    color: rgba(0,0,0,.65);
+}
+.update>div {
+    margin-bottom: 2px;
+    padding: 16px 0;
+}
+.update img{
+    float: left;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+.update>div>div {
+    margin-left: 40px;
+}
+.update>div p {
+    margin-top:5px;
+}
+.update>div p:nth-child(2) {
+    color: rgba(0,0,0,.45);
+}
+.update>div a {
+    color: #1890ff;
+}
+.content-right {
+    float: right;
+    width: 35%;
+}
+.content-right .page-card {
+    background: #eff3f6;
+    margin: 24px 0;
+    font-size: 14px;
+}
+.opration {
+    background: #fff;
+    padding: 20px 24px 5px 24px;
+    color: rgba(0,0,0,.65);
+}
+.opration>div {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 25%;
+}
+.opration>div:last-child {
+    width: 66px;
+    border-radius: 4px;
+    border: 1px solid #1890ff;
+    color: #1890ff;
+    padding: 0px 10px;
+}
+.opration>div:hover {
+    color: #1890ff;
+	cursor: pointer;
+}
+.page-team>div:nth-child(2) {
+    background: #fff;
+    padding: 20px 24px 0 24px;
+}
+.team {
+    display: inline-block;
+    margin-bottom: 20px; 
+    width: 50%;
+    color: rgba(0,0,0,.65);
+}
+.team img{
+    height: 24px;
+	width: 24px;
+	border-radius: 50%;
+}
+.team a:hover {
+	color: #1890ff;
+	cursor: pointer;
+}
+.page-team {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1200px) {
+    .content-left {
+        display: block;
+        width: 100%;
+    }
+    .content-right {
+        width: 100%;
+        padding: 0 24px;
+    }
+    /* .page-footer {
+        padding: 48px 24px 0 24px;
+    } */
+}

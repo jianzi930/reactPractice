@@ -1,0 +1,73 @@
+.content {
+    margin: 24px;
+    padding: 24px;
+    background: #fff;
+    text-align: center;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+}
+
+
+.content>div .rate {
+    width: 20%;
+    left: -23%;
+}
+
+.content>div .rate span {
+    position: absolute;
+    right: -17%;
+    top: 19%;
+}
+.radio>div {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    left: -8%;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    line-height: 32px;
+    text-align: left;
+}
+.radio div label {
+    left: 0;
+    margin-right: 10px;
+    position: relative;
+}
+.radio input[type='radio'] {
+    width: 16px;
+    height: 16px;
+    left: 0;
+    margin-right: 8px;
+    opacity: 0;
+}
+.radio input[type='text'] {
+    width: 80%;
+    left: 0;
+    margin-top: 8px;
+}
+.radio label>span {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+}
+.radio label.active>span {
+    border: 1px solid #1890ff;
+}
+.radio label.active span>span {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 3px;
+    top: 3px;
+    border: none;
+    border-radius: 50%;
+    background: #1890ff;
+}
+.radio>div>span {
+    left: 0;
+    color: rgba(0,0,0,.45);
+}
